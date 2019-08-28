@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^3.0.4",
     "mocha": "^6.2.0"
+  }, 
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   }
 }
